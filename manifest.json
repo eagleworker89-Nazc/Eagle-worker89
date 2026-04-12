@@ -1,0 +1,44 @@
+{
+  "name": "Eagle Worker⁸⁹ — Controle de Escala",
+  "short_name": "Eagle Worker",
+  "description": "Sistema de controle de escala, ponto e banco de horas",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0f19",
+  "theme_color": "#0b0f19",
+  "lang": "pt-BR",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%230b0f19'/%3E%3Ctext x='96' y='130' font-size='110' text-anchor='middle' fill='%234a9e96' font-family='Arial'%3E89%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%230b0f19'/%3E%3Ctext x='256' y='360' font-size='300' text-anchor='middle' fill='%234a9e96' font-family='Arial'%3E89%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Registrar Ponto",
+      "short_name": "Ponto",
+      "description": "Abrir registro de ponto",
+      "url": "/?acao=ponto",
+      "icons": []
+    },
+    {
+      "name": "Ver Escala",
+      "short_name": "Escala",
+      "description": "Ver minha escala do mês",
+      "url": "/?acao=escala",
+      "icons": []
+    }
+  ]
+}
